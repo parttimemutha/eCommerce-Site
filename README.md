@@ -51,7 +51,7 @@ src/
 ### Prerequisites
 - Node.js and npm must be installed on your machine.
 
-### Setup Steps
+### Setup Steps for Running the Frontend
 
 1. **Clone the Repository**:
    ```bash
@@ -64,12 +64,40 @@ src/
    npm install
    ```
 
-3. **Run the Application**:
+3. **Run the Frontend**:
    ```bash
    npm start
    ```
 
 4. Open your browser and go to `http://localhost:3000/`.
+
+### Backend Instructions
+
+For the backend, ensure the following:
+
+1. **API Setup**:
+   - If a separate backend API is required (e.g., for user authentication, product management), follow the specific backend repository instructions to install and run the API.
+   - If no separate backend is needed, ensure all state management is handled correctly in the frontend.
+
+### Running Both Backend and Frontend
+
+- **Running Together**: 
+  - If the backend is required, make sure to start the backend server first before starting the frontend.
+  - Example for the backend:
+    ```bash
+    npm run backend
+    ```
+  - Then, in a separate terminal, run the frontend using:
+    ```bash
+    npm start
+    ```
+  - Ensure both servers are running concurrently, and the frontend is properly configured to communicate with the backend (if applicable).
+
+---
+
+> **IMPORTANT**: We require you to have instructions on how to run both the backend and the frontend or the entire app itself. Failure to do so will lose your chance to win the bounty ❌
+
+---
 
 ## How It Works
 
@@ -111,4 +139,3 @@ Some potential enhancements for the future include:
 - **Advanced User Management**: Allowing the admin to edit user details or restore previously removed users.
 
 ---
-
