@@ -93,11 +93,6 @@ For the backend, ensure the following:
     ```
   - Ensure both servers are running concurrently, and the frontend is properly configured to communicate with the backend (if applicable).
 
----
-
-> **IMPORTANT**: We require you to have instructions on how to run both the backend and the frontend or the entire app itself. Failure to do so will lose your chance to win the bounty ❌
-
----
 
 ## How It Works
 
